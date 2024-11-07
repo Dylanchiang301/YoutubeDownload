@@ -34,7 +34,6 @@ exports.crawler = async (url, urlType) => {
 const parse = (html, type) => {
     const $ = cheerio.load(html);
     let result = []
-    console.log(type, 'geijlisjifd')
     switch (type) {
         case 1:
             // 創作者影片頁面
